@@ -15,7 +15,7 @@ def convert_to_inter(input_file, output_file):
     df.to_csv(output_file, sep='\t', index=False, header=True)
 
 
-dataset = "Video_Games"
+dataset = "Sports_and_Outdoors"
 path = f"./processed/{dataset}/"
 
 input_file = path + f'{dataset}_u_i_pairs.tsv'

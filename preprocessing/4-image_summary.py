@@ -20,7 +20,7 @@ model = LlavaNextForConditionalGeneration.from_pretrained(model_id,cache_dir='/l
                                                           ).eval()
 
 
-prompt_video = "[INST] <image>\nPlease describe this image, which is a cover of a video game" \
+prompt_video = "[INST] <image>\nPlease describe this image, which is a cover about Sports_and_Outdoors product" \
          " Provide a detailed description in one continuous paragraph, including content information and visual features such as colors, objects, text," \
          " and any notable elements present in the image.[/INST]"
 
@@ -30,7 +30,7 @@ def add_image_file_path(example):
     example['item_id'] = filename
     return example
 
-dataset_name = "Video_Games"
+dataset_name = "Sports_and_Outdoors"
 img_dir = f"./origin_image/{dataset_name}"  
 dataset = load_dataset("imagefolder", data_dir=img_dir)
 dataset = dataset.map(lambda x: add_image_file_path(x))

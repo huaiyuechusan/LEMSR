@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-dataset_name = 'Video_Games'  
+dataset_name = 'Sports_and_Outdoors'  
 
 tsv_file_path = f'./processed/{dataset_name}/{dataset_name}_item_desc.tsv'
 csv_file_path = f'./processed/{dataset_name}/image_summary_{dataset_name}.csv'

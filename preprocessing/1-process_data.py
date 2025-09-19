@@ -16,7 +16,7 @@ from sklearn.model_selection import train_test_split
 
 MAGAZINE_DATASET = 'Magazine_Subscriptions'
 
-DATASET = 'Video_Games'
+DATASET = 'Sports_and_Outdoors'
 OUT_PATH = f'./processed/{DATASET}'
 UID, IID = 'user_id', 'item_id'
 UMAP_FILE, IMAP_FILE,  = f'{DATASET}_u_map.tsv', f'{DATASET}_i_map.tsv'

@@ -15,7 +15,7 @@ os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 warnings.filterwarnings('ignore')
 
 # 配置参数
-DATASET = 'Video_Games'  
+DATASET = 'Sports_and_Outdoors'  
 DATA_PATH = f'./processed/{DATASET}'
 OUTPUT_PATH = f'./processed/{DATASET}'
 IMAGE_SIZE = 512

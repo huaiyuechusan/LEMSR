@@ -53,7 +53,7 @@ def download_images_in_csv(csv_file_path, folder, threads):
                 print(f"Submitted: {submitted}")
 
 def main():
-    dataset = "Video_Games"  
+    dataset = "Sports_and_Outdoors"  
     parser = argparse.ArgumentParser(description="Download images from CSV file.")
     parser.add_argument('-i', '--input', default=f"./processed/{dataset}/{dataset}_item_desc.tsv", help="Input CSV file path.")   # required=True
     parser.add_argument('-o', '--output', default=f"./origin_image/{dataset}", help="Output folder for images.")
