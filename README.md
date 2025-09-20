@@ -19,7 +19,7 @@ This repository contains the official implementation of the paper:
 
 This paper utilizes the following datasets:
 
-**Amazon Dataset**: 🔗 [Amazon Reviews 2023](https://amazon-reviews-2023.github.io/#grouped-by-category)
+**Amazon Dataset**: 🔗 [Amazon Reviews](http://jmcauley.ucsd.edu/data/amazon/links.html)
 
 - 📥 Download the raw files and place them in `preprocessing/origin_data/`.
 - ▶️ Run the preprocessing scripts in order to generate the processed dataset.
