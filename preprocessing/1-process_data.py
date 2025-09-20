@@ -223,7 +223,7 @@ def process_dataset(dataset, core_req):
 
 
 if __name__ == '__main__':
-    process_dataset('Video_Games', (10,10)) 
+    process_dataset('Sports_and_Outdoors', (10,11)) 
 
 
 
