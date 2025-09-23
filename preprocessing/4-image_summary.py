@@ -20,7 +20,7 @@ model = LlavaNextForConditionalGeneration.from_pretrained(model_id,cache_dir='/l
                                                           ).eval()
 
 
-prompt_video = "[INST] <image>\nPlease describe this image, which is a cover about Sports_and_Outdoors product" \
+prompt_sports = "[INST] <image>\nPlease describe this image, which is a cover about Sports_and_Outdoors product" \
          " Provide a detailed description in one continuous paragraph, including content information and visual features such as colors, objects, text," \
          " and any notable elements present in the image.[/INST]"
 
