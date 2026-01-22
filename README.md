@@ -3,7 +3,7 @@
 This repository contains the official implementation of the paper:
 **"LMM-Enhanced Multimodal Sequential Recommendation using Consistency-Guided Hybrid Attention"**, submitted to **ICASSP, 2026**.
 
-![image-20250919170859205](README.assets/image-20250919170859205.png)
+![image-20260122160451084](README.assets/image-20260122160451084.png)
 
 ## 👉 Requirements
 
@@ -19,7 +19,7 @@ This repository contains the official implementation of the paper:
 
 This paper utilizes the following datasets:
 
-**Amazon Dataset**: 🔗 [Amazon Reviews](http://jmcauley.ucsd.edu/data/amazon/links.html)
+**Amazon Dataset**: 🔗 [Amazon Reviews](https://amazon-reviews-2023.github.io/)
 
 - 📥 Download the raw files and place them in `preprocessing/origin_data/`.
 - ▶️ Run the preprocessing scripts in order to generate the processed dataset.
