@@ -1,7 +1,7 @@
 # LMM-Enhanced Multimodal Sequential Recommendation using Consistency-Guided Hybrid Attention
 
 This repository contains the official implementation of the paper:
-**"LMM-Enhanced Multimodal Sequential Recommendation using Consistency-Guided Hybrid Attention"**, submitted to **ICASSP, 2026**.
+**"LMM-Enhanced Multimodal Sequential Recommendation using Consistency-Guided Hybrid Attention"**, accepted by **ICASSP, 2026**.
 
 ![image-20260122160451084](README.assets/image-20260122160451084.png)
 
